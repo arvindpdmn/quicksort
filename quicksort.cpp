@@ -4,8 +4,6 @@ http://en.literateprograms.org/Quicksort_(C_Plus_Plus)?action=history&offset=200
 Retrieved from: http://en.literateprograms.org/Quicksort_(C_Plus_Plus)?oldid=10979
 */
 
-// Adding comment at start of file
-
 #include <time.h>
 #include <iostream>
 #include <string>
@@ -84,6 +82,3 @@ void dummyforInstantiation() // can't make this static: instantiated templates w
   std::vector<std::string>::iterator iter;
   quick_sort(iter, iter);
 }
-
-// This is the end of file comment
-

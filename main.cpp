@@ -6,17 +6,10 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-// Adding a new line here
-// Change A: clone 1 modified line
-// Change C: clone 1
 
-
-// A new line
 using namespace std;
 
 #include "quicksort.h"
-
-// Making a change when protocol is SSH
 
 int main(int argc, char* argv[])
 {
@@ -42,7 +35,6 @@ int main(int argc, char* argv[])
 	std::for_each(v.begin(), v.end(), print<std::string>);
 	std::cout<<'\n';
 
-	// init data set
 	int a[]={3,8,0,6,7,4,2,1,9,3,1,8,3,9,2,0,9};
 	int *a_end=a+sizeof a/sizeof(int);
 
@@ -50,7 +42,7 @@ int main(int argc, char* argv[])
 	std::for_each(a, a_end, print<int>);
 	std::cout<<'\n';
 
-	quick_sort(a, a_end);
+	quick_sort(a, a_end, pivot_random<int*>());
 	
 	std::cout<<"a after qsort: ";
 	std::for_each(a, a_end, print<int>);
