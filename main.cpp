@@ -1,11 +1,3 @@
-// New line added from feature-c
-// New comment at the start of file
-// Filename: main.cpp
-// Author: abc
-// Change B: clone 0
-// Change D: clone 0
-
-
 #include <vector>
 #include <list>
 #include <deque>
@@ -14,8 +6,8 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-
-// Change A: clone 1
+// Adding a new line here
+// Change A: clone 1 modified line
 // Change C: clone 1
 
 
